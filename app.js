@@ -1,23 +1,4 @@
-var cardPais;
 
-fetch("https://restcountries.eu/rest/v2/region/europe")
-    .then(res => res.json())
-    .then(res => {
-        //console.log(res)    
-        const paisesFetch = res;
-
-        for (const pais of paisesFetch) {
-            document.getElementById("containterMain--BanderasPais").innerHTML += `
-        <li class="cardPais">          
-            <img class="paisImagen" src="${pais.flag}" >
-            <h3 class="paisNombre">${pais.name}</h3>  
-            <h5><b>REGION: </b>${pais.region}</h5>
-            <h5><b>CAPITAL: </b>${pais.capital}</h5>
-            <h5><b>POBLACIÓN: </b>${pais.population}</h5>             
-        </li>
-        `;
-        }
-    })
 
 
 
