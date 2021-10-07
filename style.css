@@ -119,7 +119,7 @@ header{
     color: var(--txtbtnbg)
 }
 
-/* portfolio */
+/* PORTFOLIO */
 .containterMain--portfolio{
     width: 80%;
     margin: 30px auto;   
@@ -148,4 +148,22 @@ header{
 }
 
 
+/* REDES */
+.containterMain--redes{
+    width: 100%;
+    margin: 60px auto;   
+}
+
+.redes{
+    display: flex;      
+    justify-content: center;
+    gap: 10px;
+    max-width: 900px;
+    margin: auto;    
+}
+
+.redes-items {
+    font-size: 30px;
+    color: var(--txtColor1Claro);
+}
 
