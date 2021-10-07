@@ -13,7 +13,17 @@ btnModo.addEventListener('click', (e) => {
     }
 });
 
+window.addEventListener("load", ()=>{
 
+    let puntos = document.getElementById("main-punto")
+    const puntoIntermitente = () =>{
+
+        setTimeout(mostrarHora, 1000)
+    }    
+
+    puntoIntermitente()
+
+})
 
 
 
