@@ -17,11 +17,27 @@
 
 .navContainer .navImg{
     grid-column: 2/3;
+    width: 80px;
 }
 
-.navContainer .navUl{
+.navContainer .nav-ul{
     grid-column: 7/12;
     display: flex;
     justify-content: space-around;
 }
 
+.main-container{
+    width: 95%;
+    margin: 10px auto;
+    display: grid;    
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 20px;
+    justify-content: center;
+    max-width: 900px;
+}
+
+.card{
+    height: 280px;
+    width: 250px;
+    background-color: lightpink;
+}
