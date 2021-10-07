@@ -7,7 +7,7 @@ btnModo.addEventListener('click', (e) => {
     var btnModo = document.getElementById('btnModo')
     var elemBody = document.getElementById('elemBody')
 
-    if (btnModo.value == "Dark Mode") {
+    if (btnModo.value == `Dark Mode`) {
         btnModo.value = "Light Mode"
         elemBody.classList.toggle("modoClaro")
     } else {
