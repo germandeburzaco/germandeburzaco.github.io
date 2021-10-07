@@ -12,12 +12,20 @@
     --bkColor1Claro: #2b3743;
     --bkColor2Claro: #172027;
     --txtColor1Claro: white; 
+    --txtColorpunto: rgb(0, 217, 255);
+   
+    --txtbtntxt: #ffffff;
+    --txtbtnbg: #555555;
 }
 
 .modoClaro{ 
     --bkColor1Claro: #ffffff;
     --bkColor2Claro: #fafafa;
     --txtColor1Claro: black;
+
+
+    --txtbtntxt: #555555;
+    --txtbtnbg:  #e7e7e7;
 }
 
 header{   
@@ -51,7 +59,7 @@ header{
 }
 
 .navbar--modo input{
-    color: var(--txtColor1Claro);;
+    color: var(--txtColor1Claro);
     background-color: var(--bkColor1Claro);
     margin-right: 30px;
     border: none;
@@ -67,20 +75,49 @@ body{
     background-color: var(--bkColor2Claro);
 }
 
+
+/*          MAIN         */
 .containerMain{
     background-color: var(--bkColor2Claro);
    /* height: calc(100vh - 90px);*/
-    width: 90%;
+    width: 100%;
     padding: 10px 20px;
     margin-left: auto;
     margin-right: auto;
+    height: 400px; 
+    box-shadow: 0 4px 6px -6px rgb(5, 5, 5);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.282);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.containerMain--filtro{
-    height: 60px;    
+.main-texto{
+    color: var(--txtColor1Claro);
+    font-size: 28px;
+}
+
+.main-nombre{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.main-punto{
+    color: var(--txtColorpunto); 
+    font-weight: 800;
+}
+
+.main-btn{
+    padding: 0.5rem 3.2rem;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 40px auto;
+    background-color: var(--txtbtntxt);
+    color: var(--txtbtnbg)
 }
 
 /* FILTROS */
+/*
 .containerMain--filtro{
     display: flex;
     justify-content: space-between;
@@ -116,10 +153,15 @@ body{
     color: var(--txtColor1Claro);
     background-color: var(--bkColor2Claro);
     font-size: 18px;
+}*/
+
+/* portfolio */
+.containterMain--portfolio{
+    width: 80%;
+    margin: 0 auto;    
 }
 
-/* BANDERAS */
-.containterMain--BanderasPais{
+.portfolio{
     display: grid;
     grid-template-columns: repeat(auto-fill, 310px);
     padding: 10px;
@@ -128,47 +170,31 @@ body{
     
 }
 
-.containterMain--BanderasPais h3 {
+.containterMain--portfolio h3 {
     color: var(--txtColor1Claro);
     padding: 5px 10px 10px 10px;
 }
 
-.containterMain--BanderasPais h6 {
+.containterMain--portfolio h6 {
     color: var(--txtColor1Claro);
     padding: 0 10px;
 }
 
-.containterMain--BanderasPais h5 {
+.containterMain--portfolio h5 {
     color: var(--txtColor1Claro);
     padding: 0 10px;
 }
 
-
-/* *********
-li{
-    width: 300px;
-    height: 350px;
+.portfolio-items {
+    width: 200px;
+    height: 250px;
     background-color: var(--bkColor1Claro);
     /*padding: 10px;*/
-/*
     display: flex;
     flex-direction: column;
-    box-shadow: 0 1px 6px rgba(32,33,36,.28);
-    border-radius: 15px 15px;
-    cursor: pointer;
-}*/
-
-.paisNombre{
-    padding: 5px 0;
-    color: var(--txtColor1Claro);
+   /* box-shadow: 0 1px 6px rgba(32,33,36,.28);*/
+    border-radius: 5px 5px;
 }
 
-.paisImagen{
-  /* border: 1px solid rgba(0, 0, 0, 0.282);*/
-    margin-bottom: 10px;
-    height: 180px;
-    width: 300px;
-    object-fit: cover;
-    border-radius: 15px 15px 0 0 ;  
-}
+
 
