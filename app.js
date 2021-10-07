@@ -16,9 +16,10 @@ btnModo.addEventListener('click', (e) => {
 window.addEventListener("load", ()=>{
 
     let puntos = document.getElementById("main-punto")
-    const puntoIntermitente = () =>{
 
-        setTimeout(mostrarHora, 1000)
+    const puntoIntermitente = () =>{
+        puntos.classList.toggle("main-punto-oculto")
+        setTimeout(puntoIntermitente, 1000)
     }    
 
     puntoIntermitente()
