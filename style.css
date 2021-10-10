@@ -63,7 +63,7 @@ header{
 .navbar--modo{
     grid-column: 24/25;
 }
-
+/*
 .navbar--modo input{
     color: var(--txtColor1Claro);
     background-color: var(--bkColor1Claro);
@@ -71,12 +71,24 @@ header{
     border: none;
     font-size: 0.6rem;
     cursor: pointer;
-}
+}*/
 
+.navbar--modo i{
+    color: var(--txtColor1Claro);
+    background-color: var(--bkColor1Claro);
+    margin-right: 30px;
+    border: none;
+    font-size: 0.6rem;
+    cursor: pointer;
+}
+/*
 .navbar--modo input:hover{
     opacity: 0.3 ;
 }
-
+*/
+.navbar--modo i:hover{
+    opacity: 0.3 ;
+}
 
 
 /*          MAIN         */
@@ -168,7 +180,7 @@ header{
                 }*/
 
                 .paisNombre{
-                    padding: 5px 0;
+                    padding: 3px 20px;
                     color: var(--txtColor1Claro);
                 }
 
