@@ -233,3 +233,9 @@ footer{
     margin: 25px 0;
     height: 30px;
 }
+
+@media screen and (max-width: 600px) {
+    .navbar--botones{
+        display: none;
+    }
+}
