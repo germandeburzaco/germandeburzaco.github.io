@@ -2,7 +2,7 @@
 
 window.addEventListener("load", () => {
     var iconoLight = document.getElementsByClassName("fas")
-    console.log(iconoLight[0])
+   
     let puntos = document.getElementById("main-punto")
     const puntoIntermitente = () => {
         puntos.classList.toggle("main-punto-oculto")
@@ -11,7 +11,7 @@ window.addEventListener("load", () => {
     puntoIntermitente()
 
     iconoLight[0].addEventListener('click', (e) => {
-        console.log("ok")
+       
         var btnModo = document.getElementById('btnModo')
         var elemBody = document.getElementById('elemBody')
 
