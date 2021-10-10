@@ -157,43 +157,44 @@ header{
 /*  SKILLS   */
 .container--skills{
     width: 80%;
-    margin: 70px auto;
-   
+    margin: 70px auto;   
 }
 
 .skill-container{
     width: 100%;
-    background-color: #ddd;
-    margin-bottom: 5px;
+    background-color: var(--txtbtntxt);
+    margin-bottom: 9px;
 }
 
 .skill-html{
- width: 75%;
- background-color: lightgreen;   
+    width: 75%;
+    background-color: lightgreen; 
+    text-align: center;  
 }
 .skill-css{
     width: 65%;
-    background-color: rgb(233, 238, 144);   
+    background-color: rgb(233, 238, 144);
+    text-align: center;    
 }
 
 .skill-js{
     width: 80%;
-    background-color: rgb(144, 229, 238);   
+    background-color: rgb(144, 229, 238); 
+    text-align: center;   
 }
 
 .skill-node{
     width: 70%;
-    background-color: rgb(238, 205, 144);   
+    background-color: rgb(238, 205, 144);  
+    text-align: center;  
 }
 
 .skill-sql{
     width: 55%;
     background-color: rgb(144, 158, 238);   
+    text-align: center; 
 }   
-.skill-html{
-    width: 75%;
-    background-color: lightgreen;   
-}
+
 
 /* FOOTER */ 
 footer{   
