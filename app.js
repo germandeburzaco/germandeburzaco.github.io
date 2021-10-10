@@ -1,4 +1,4 @@
-
+var btnModo = document.getElementById("btnModo")
 
 btnModo.addEventListener('click', (e) => {
     var btnModo = document.getElementById('btnModo')
