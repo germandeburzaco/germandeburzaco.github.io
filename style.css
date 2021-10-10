@@ -154,6 +154,56 @@ header{
     border-radius: 5px 5px;
 }
 
+/*  SKILLS   */
+.container--skills{
+    width: 80%;
+    margin: 70px auto;
+   
+}
+
+.skill-container{
+    width: 100%;
+    background-color: #ddd;
+    margin-bottom: 5px;
+}
+
+.skill-html{
+ width: 75%;
+ background-color: lightgreen;   
+}
+.skill-css{
+    width: 65%;
+    background-color: rgb(233, 238, 144);   
+}
+
+.skill-js{
+    width: 80%;
+    background-color: rgb(144, 229, 238);   
+}
+
+.skill-node{
+    width: 70%;
+    background-color: rgb(238, 205, 144);   
+}
+
+.skill-sql{
+    width: 55%;
+    background-color: rgb(144, 158, 238);   
+}   
+.skill-html{
+    width: 75%;
+    background-color: lightgreen;   
+}
+
+/* FOOTER */ 
+footer{   
+    margin-top: 40px;
+    padding-top: 60px;
+    box-shadow: 0 4px 6px -6px rgb(5, 5, 5);
+    border-top: 1px solid rgba(128, 128, 128, 0.282);
+    background-color: var(--bkColor1Claro);
+    
+}
 
 /* REDES */
 .containterMain--redes{
@@ -162,7 +212,6 @@ header{
    /* box-shadow: 0 4px 6px -6px rgb(5, 5, 5);*/
    /* border-bottom: 1px solid rgba(128, 128, 128, 0.282);  */ 
 }
-
 .redes{
     display: flex;      
     justify-content: center;
@@ -175,51 +224,7 @@ header{
     font-size: 30px;
     color: var(--txtColor1Claro);
 }
-
-/* FOOTER */ 
-footer{   
-    margin-top: 40px;
-    padding-top: 60px;
-    box-shadow: 0 4px 6px -6px rgb(5, 5, 5);
-    border-top: 1px solid rgba(128, 128, 128, 0.282);
-    background-color: var(--bkColor1Claro);
-   
-}
-
-.navbar{
-    display: grid;
-    grid-template-columns: repeat(24, 1fr);
-    align-items: center;
-    background-color: var(--bkColor1Claro);
-    padding: 20px 0;
-}
-.navbar--logo{
-    color: var(--txtColor1Claro);    
-    grid-column: 2/10;
-}
-
-.navbar--botones{
-    grid-column: 10/23;
-}
-.navbar--botones-ul{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    color: var(--txtColor1Claro); 
-}
-
-.navbar--modo{
-    grid-column: 24/25;
-}
-
-.navbar--modo input{
-    color: var(--txtColor1Claro);
-    background-color: var(--bkColor1Claro);
-    margin-right: 30px;
-    border: none;
-    font-size: 0.6rem;
-    cursor: pointer;
-}
-
-.navbar--modo input:hover{
-    opacity: 0.3 ;
+.footer-bajo{
+    margin: 25px 0;
+    height: 30px;
 }
