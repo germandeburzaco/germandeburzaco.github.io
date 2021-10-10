@@ -17,16 +17,17 @@
     
     --txtbtntxt: #ffffff;
     --txtbtnbg: #555555;
+    transition: all 0.5s ease;
 }
 
 .modoClaro{ 
     --bkColor1Claro: #ffffff;
     --bkColor2Claro: #fafafa;
-    --txtColor1Claro: black;
-    
+    --txtColor1Claro: black;    
     
     --txtbtntxt: #555555;
     --txtbtnbg:  #e7e7e7;
+    
 }
 
 body{
@@ -202,7 +203,7 @@ header{
 }
 
 .skills-barras{
-    width: 80%;
+    width: 50%;
     margin: 70px auto;   
 }
 
