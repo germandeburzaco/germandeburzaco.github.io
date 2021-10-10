@@ -1,29 +1,5 @@
 
-document.addEventListener("load", () => {
-    var btnModo = document.getElementById("btnModo")
 
-    var iconoLight = document.getElementsById("fas")
-    console.log(iconoLight[0])
-
-    iconoLight[0].addEventListener('click', (e) => {
-        console.log("ok")
-        var btnModo = document.getElementById('btnModo')
-        var elemBody = document.getElementById('elemBody')
-
-        if (btnModo.value == `-Dark Mode-`) {
-            btnModo.value = "-Light Mode-"
-            elemBody.classList.toggle("modoClaro")
-            iconoLight.classList.toggle("fa-sun")
-            iconoLight.classList.toggle("fa-moon")
-        } else {
-            btnModo.value = "-Dark Mode-"
-            elemBody.classList.toggle("modoClaro")
-            iconoLight.classList.toggle("fa-sun")
-            iconoLight.classList.toggle("fa-moon")
-        }
-    });
-
-})
 window.addEventListener("load", () => {
     var iconoLight = document.getElementsByClassName("fas")
     console.log(iconoLight[0])
@@ -42,13 +18,13 @@ window.addEventListener("load", () => {
         if (btnModo.value == `-Dark Mode-`) {
             btnModo.value = "-Light Mode-"
             elemBody.classList.toggle("modoClaro")
-            iconoLight.classList.toggle(fa - sun)
-            iconoLight.classList.toggle(fa - moon)
+            iconoLight[0].classList.toggle("fa-sun")
+            iconoLight[0].classList.toggle("fa-moon")
         } else {
             btnModo.value = "-Dark Mode-"
             elemBody.classList.toggle("modoClaro")
-            iconoLight.classList.toggle(fa - sun)
-            iconoLight.classList.toggle(fa - moon)
+            iconoLight[0].classList.toggle("fa-sun")
+            iconoLight[0].classList.toggle("fa-moon")
         }
     });
 
