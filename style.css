@@ -228,6 +228,7 @@ footer{
 .redes-items {
     font-size: 30px;
     color: var(--txtColor1Claro);
+    margin: 0 10px;
 }
 .footer-bajo{
     margin: 25px 0;
