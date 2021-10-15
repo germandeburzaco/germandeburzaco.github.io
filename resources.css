@@ -67,10 +67,6 @@ header{
     cursor: pointer;
 }
 
-.navbar--botones-ul li{
-    color: var(--txtColor1Claro); 
-}
-
 .navbar--modo{
     grid-column: 24/25;
 }
